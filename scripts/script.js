@@ -10,7 +10,7 @@ let photosArray = []
 
 // Unsplash API
 let initialCount = 5
-const apiKEY = "lr4nWMJhin73j38hKbFktgQsaRUkZ8wXHLVm2BvCjRw"
+const apiKEY = "lr4nWMJhin73j38hKbFktgQsaRUkZ8wXHLVm2BvCjRw"  // this is a free API key to get free pictures, there are limitations to its usage if one tries to use it for more than testing
 let apiURL = `https://api.unsplash.com/photos/random/?client_id=${apiKEY}
 &count=${initialCount}`
 
